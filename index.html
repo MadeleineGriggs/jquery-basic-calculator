@@ -112,21 +112,27 @@ function itNumbSecond(userNumb) {
 
 // Fills the operator portion. If they have already selected an operator, clears it out before replacing it with the new one.
 function itOperator(userOperator) {
-   if (userOperator == "times") {
+   switch (userOperator) {
+   case "times": 
      $("#operator").empty();
      $("#operator").append("*");
-   } else if (userOperator == "divide") {
+     break;
+   case "divide": 
     $("#operator").empty();
     $("#operator").append("&divide;");
-   } else if (userOperator == "plus") {
+    break;
+   case "plus":
     $("#operator").empty();
     $("#operator").append("+");
-   } else if (userOperator == "minus") {
+    break;
+   case "minus":
     $("#operator").empty();
     $("#operator").append("-");
-   } else if (userOperator == "power") {
+    break;
+   case "power":
     $("#operator").empty();
     $("#operator").append("^");
+    break;
    }
 };
 
