@@ -1,6 +1,6 @@
 # A Basic Calculator, using JQuery
 A very basic calculator for adding up two numbers. Quick and fun project to familiarize myself with JQuery better.
-[Use the Calculator Here!](https://typicu.github.io/jquery-basic-calculator/index.html)
+[Use the Calculator Here!](https://madeleinegriggs.github.io/jquery-basic-calculator/index.html)
 
 ## Author
 Madeleine Griggs, original layout and design by UofT coding bootcamp.
